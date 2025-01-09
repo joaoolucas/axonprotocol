@@ -16,9 +16,9 @@ export default function MainContent() {
         className="max-w-5xl w-full space-y-16 text-center relative z-10"
       >
         <div className="space-y-4">
-          <h1 className="text-6xl md:text-7xl font-bold tracking-wider relative inline-block">
+          <h1 className="text-6xl md:text-7xl font-bold tracking-wider relative inline-block text-primary-red">
             Nexar Node
-            <div className="absolute bottom-0 left-0 w-full h-px bg-white/20"></div>
+            <div className="absolute bottom-0 left-0 w-full h-px bg-primary-red/20"></div>
           </h1>
           <p className="text-lg font-mono text-gray-400">
             AI-powered geometric art generation
@@ -26,21 +26,21 @@ export default function MainContent() {
         </div>
 
         <div className="grid gap-4 md:grid-cols-3">
-          <div className="p-6 rounded-lg bg-gradient-to-br from-green-900/20 to-transparent border border-green-900/20">
+          <div className="p-6 rounded-lg bg-gradient-to-br from-primary-red/20 to-transparent border border-primary-red/20">
             <div className="flex items-center gap-2 font-mono mb-2">
-              <div className="w-2 h-2 rounded-full bg-green-500"></div>
+              <div className="w-2 h-2 rounded-full bg-primary-red"></div>
               AI Core
             </div>
           </div>
-          <div className="p-6 rounded-lg bg-gradient-to-br from-blue-900/20 to-transparent border border-blue-900/20">
+          <div className="p-6 rounded-lg bg-gradient-to-br from-primary-red/20 to-transparent border border-primary-red/20">
             <div className="flex items-center gap-2 font-mono mb-2">
-              <div className="w-2 h-2 rounded-full bg-blue-500"></div>
+              <div className="w-2 h-2 rounded-full bg-primary-red"></div>
               Geometric Engine
             </div>
           </div>
-          <div className="p-6 rounded-lg bg-gradient-to-br from-purple-900/20 to-transparent border border-purple-900/20">
+          <div className="p-6 rounded-lg bg-gradient-to-br from-primary-red/20 to-transparent border border-primary-red/20">
             <div className="flex items-center gap-2 font-mono mb-2">
-              <div className="w-2 h-2 rounded-full bg-purple-500"></div>
+              <div className="w-2 h-2 rounded-full bg-primary-red"></div>
               Pattern Recognition
             </div>
           </div>
@@ -52,14 +52,14 @@ export default function MainContent() {
         </div>
 
         <div className="flex items-center justify-center space-x-4">
-          <button className="px-6 py-3 rounded-lg bg-white/5 hover:bg-white/10 transition-colors font-mono text-white">
+          <button className="px-6 py-3 rounded-lg bg-primary-red/10 hover:bg-primary-red/20 transition-colors font-mono text-primary-red">
             CA: soon
           </button>
           <a
             href={SOCIAL_LINKS.TWITTER}
             target="_blank"
             rel="noopener noreferrer"
-            className="p-3 rounded-lg bg-white/5 hover:bg-white/10 transition-colors"
+            className="p-3 rounded-lg bg-primary-red/10 hover:bg-primary-red/20 transition-colors text-primary-red"
           >
             <Twitter className="w-5 h-5" />
           </a>
@@ -67,31 +67,31 @@ export default function MainContent() {
 
         <div className="grid grid-cols-1 md:grid-cols-5 gap-8 text-center font-mono text-sm">
           <div className="space-y-2">
-            <h3 className="text-white">Autonomous Formula Creation</h3>
+            <h3 className="text-primary-red">Autonomous Formula Creation</h3>
             <p className="text-gray-500 text-xs">
               Independently develops geometric formulas based on mathematical principles
             </p>
           </div>
           <div className="space-y-2">
-            <h3 className="text-white">Real-time Visualization</h3>
+            <h3 className="text-primary-red">Real-time Visualization</h3>
             <p className="text-gray-500 text-xs">
               Watch calculations and geometric constructions unfold in real-time
             </p>
           </div>
           <div className="space-y-2">
-            <h3 className="text-white">Pattern Recognition</h3>
+            <h3 className="text-primary-red">Pattern Recognition</h3>
             <p className="text-gray-500 text-xs">
               Self-evolving system that learns and adapts its artistic approach
             </p>
           </div>
           <div className="space-y-2">
-            <h3 className="text-white">Mathematical Proofs</h3>
+            <h3 className="text-primary-red">Mathematical Proofs</h3>
             <p className="text-gray-500 text-xs">
               Generates mathematical proofs for each artwork it creates
             </p>
           </div>
           <div className="space-y-2">
-            <h3 className="text-white">Live Construction</h3>
+            <h3 className="text-primary-red">Live Construction</h3>
             <p className="text-gray-500 text-xs">
               Displays the step-by-step construction process of each piece
             </p>

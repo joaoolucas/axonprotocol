@@ -27,6 +27,12 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Nexar Node',
+    description: 'AI-powered geometric art generation',
+    creator: '@NexarNode',
+  },
 }
 
 export default function RootLayout({

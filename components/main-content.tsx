@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import { Twitter } from 'lucide-react'
 import AnimatedBackground from './animated-background'
+import { SOCIAL_LINKS, SITE_CONFIG } from '@/lib/constants'
 
 export default function MainContent() {
   return (
@@ -16,7 +17,7 @@ export default function MainContent() {
       >
         <div className="space-y-4">
           <h1 className="text-6xl md:text-7xl font-bold tracking-wider relative inline-block">
-            Axon Protocol
+            Nexar Node
             <div className="absolute bottom-0 left-0 w-full h-px bg-white/20"></div>
           </h1>
           <p className="text-lg font-mono text-gray-400">
@@ -55,7 +56,7 @@ export default function MainContent() {
             CA: soon
           </button>
           <a
-            href="https://x.com/ProtocolAxon"
+            href={SOCIAL_LINKS.TWITTER}
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-lg bg-white/5 hover:bg-white/10 transition-colors"
@@ -98,7 +99,7 @@ export default function MainContent() {
         </div>
 
         <div className="text-gray-500 font-mono text-sm">
-          Axon Protocol v1.0.0 • 2024
+          Nexar Node v1.0.0 • 2024
         </div>
       </motion.div>
     </div>

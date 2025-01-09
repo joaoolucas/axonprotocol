@@ -5,7 +5,7 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Axon Protocol',
+  title: 'Hexar Node',
   description: 'AI-powered geometric art generation',
 }
 

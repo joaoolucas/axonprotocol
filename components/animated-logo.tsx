@@ -22,12 +22,12 @@ export default function AnimatedLogo() {
         transition: 'transform 0.05s linear'
       }}
     >
-      <g stroke="rgba(255,255,255,0.2)" strokeWidth="1" fill="none">
+      <g stroke="rgba(255,0,0,0.2)" strokeWidth="1" fill="none">
         <path d="M20,50 L80,20" />
         <path d="M20,50 L80,80" />
         <path d="M80,20 L80,80" />
       </g>
-      <circle cx="50" cy="50" r="2" fill="white" />
+      <circle cx="50" cy="50" r="2" fill="#ff0000" />
     </svg>
   )
 }
